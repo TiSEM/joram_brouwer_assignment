@@ -1,0 +1,52 @@
+#+TITLE: Grade sheet for your assignment
+
+*Warning* Giving you this feedback via github is still experimental. No rights can be derived from this file. The grade provided by the exam office is the official grade. Also this grade is rounded while the file below gives the decimal score.
+
+|                           | grade |
+|---------------------------+-------|
+| Paper                     |   0.4 |
+| Research question         |   0.5 |
+| Motivation                |   0.5 |
+| Preview of the answers    |   0.4 |
+| Main assumptions          |   0.5 |
+| Model                     |   1.0 |
+| Python code               |   3.7 |
+| Discussion and conclusion |   0.3 |
+|---------------------------+-------|
+| Total                     |   7.3 |
+#+TBLFM: @10$2=vsum(@2$2..@9$2)
+
+* Paper (0.5 points)
+- source mentioned but no direct link provided (-0.1)
+- clear overview  
+
+* Research question (0.5 points)
+- clear RQ
+
+* Motivation (0.5 points)
+- general motivation for the topic clear
+- motivation for extension provided in previous seaction ("Research question"), clear  
+
+* Preview of the answers (0.5 points)
+- "the world does not end" is not a result but one of the assumptions in the extension (-0.1)
+- clear   
+
+* Main assumptions (0.5 points)
+- clear overview, some assumptions also mentioned in the "Paper" section
+
+* Model (1.0 point)
+- latex used for formulas
+- all variables/parameters named but sometimes it is difficult to deduct names of each part from the text: a more clear overview would be appreciated
+- extension clearly identified
+  
+* Python code (6.0 points)
+- work with data frames, define own complex functions, for and if loops
+- cel [42], [43], [44]: axes description missing (-0.2)
+- repeatedly import the same packages (-0.1)
+- no optimization, no equilibrium using fixed points (-2.0)
+
+(-2.3)  
+
+* Discussion and conclusion (0.5 points)
+- the conclusion is only drawn based on plot comparison (where the plots are even presented separately), no formal comparison of values provided. (-0.2)
+- limitations identified  
